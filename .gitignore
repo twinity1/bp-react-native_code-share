@@ -1,0 +1,84 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+web/node_modules
+web/.pnp
+web/.pnp.js
+
+# testing
+web/coverage
+
+# production
+web/build
+
+# misc
+web/.DS_Store
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+
+web/pm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+
+# OSX
+#
+react_native/.DS_Store
+
+# Xcode
+#
+react_native/build/
+react_native/*.pbxuser
+react_native/!default.pbxuser
+react_native/*.mode1v3
+react_native/!default.mode1v3
+react_native/*.mode2v3
+react_native/!default.mode2v3
+react_native/*.perspectivev3
+react_native/!default.perspectivev3
+react_native/xcuserdata
+react_native/*.xccheckout
+react_native/*.moved-aside
+react_native/DerivedData
+react_native/*.hmap
+react_native/*.ipa
+react_native/*.xcuserstate
+
+# Android/IntelliJ
+#
+react_native/build/
+react_native/.idea
+react_native/.gradle
+react_native/local.properties
+react_native/*.iml
+
+# node.js
+#
+react_native/node_modules/
+react_native/npm-debug.log
+react_native/yarn-error.log
+
+# BUCK
+react_native/buck-out/
+\.buckd/
+react_native/*.keystore
+react_native/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+react_native/*/fastlane/report.xml
+react_native/*/fastlane/Preview.html
+react_native/*/fastlane/screenshots
+
+# Bundle artifact
+react_native/*.jsbundle
+
+# CocoaPods
+react_native/ios/Pods/
